@@ -1,10 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import VanyxasShop from './VanyxasShop'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import VanyxasShop from './VanyxasShop';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <VanyxasShop />
-  </React.StrictMode>,
-)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<VanyxasShop />);
